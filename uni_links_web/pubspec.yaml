@@ -9,7 +9,10 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   uni_links_platform_interface:
-    path: ../uni_links_platform_interface/
+    git:
+      url: https://github.com/sertifier/uni_links
+      ref: master
+      path: uni_links_platform_interface
 
 dev_dependencies:
   flutter_test:
