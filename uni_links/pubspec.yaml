@@ -3,19 +3,15 @@ description: Flutter plugin for accepting incoming links - App/Deep Links (Andro
 version: 0.5.0
 homepage: https://github.com/avioli/uni_links/tree/master/uni_links
 
+publish_to: 'none'
+
 dependencies:
   flutter:
     sdk: flutter
   uni_links_platform_interface:
-    git:
-      url: git@github.com:orevial/uni_links
-      ref: null-safety-migration-local-git-repo
-      path: uni_links_platform_interface
+    path: ../uni_links_platform_interface/
   uni_links_web:
-    git:
-      url: git@github.com:orevial/uni_links
-      ref: null-safety-migration-local-git-repo
-      path: uni_links_web
+    path: ../uni_links_web/
 
 dev_dependencies:
   flutter_test:
