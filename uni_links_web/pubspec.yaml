@@ -2,17 +2,14 @@ name: uni_links_web
 description: A web implementation of the Uni Links platform interface.
 version: 0.1.0
 homepage: https://github.com/avioli/uni_links/tree/master/uni_links_web
-
+publish_to: 'none'
 dependencies:
   flutter:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
   uni_links_platform_interface:
-    git:
-      url: git@github.com:orevial/uni_links
-      ref: null-safety-migration-local-git-repo
-      path: uni_links_platform_interface
+    path: ../uni_links_platform_interface/
 
 dev_dependencies:
   flutter_test:
